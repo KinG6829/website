@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sachin's website</title>
+    <style>
+        .header {
+            background-color:rgb(181, 188, 219);
+            font-size: 1rem;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 50%;}
+        
+        .right a:hover{
+            color: blue;
+            font-size: 1.04;
+        }
+        
+       .typewriter {
+          
+          overflow: hidden; /* Ensures the content is not revealed until the animation */
+          border-right: .15em solid rgb(211, 208, 221); /* The typwriter cursor */
+          white-space: nowrap; /* Keeps the content on a single line */
+          margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+          letter-spacing: .15em; /* Adjust as needed */
+          animation: 
+               typing 5s steps(40, end),
+               blink-caret .75s step-end infinite;
+        }
+
+
+       @keyframes typing {
+         from { width: 0 }
+         to { width: 25% }
+        }
+
+
+         @keyframes blink-caret {
+             from,to { border-color: black; }
+            background-color { border-color: rgb(37, 61, 244); }}
+
+        .search-container{
+          float: right;
+         
+          }
+        
+        .body {
+            font-family: Arial, sans-serif;
+       
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;}
+          
+        .profile-image {
+            float: left;
+            
+            max-width: 300px; /* Adjust the size as needed */
+            border-radius:70%;
+            border:  solid rgb(5, 5, 5);
+            }
+        .description {
+            float: right;
+            width: 50%; /* Adjust the width as needed */
+            padding: 20px;
+            color: rgb(60, 158, 180);
+        }
+        .office_image{
+            
+            float: right;
+            margin: 10px;
+            max-width: 500px; /* Adjust the size as needed */  }
+
+    
+      
+        .work_section{
+            float: left;
+        }
+        .footer {
+            background-color:rgb(200, 204, 225);
+            
+            text-align: center;
+            padding: 10px;
+           position: fixed;
+            bottom: 0;
+            width: 100%;}
+        .footer a {
+            color: rgb(7, 8, 22);
+            font-size: 1.0rem;
+        }
+        .footer a:hover{
+            color: blue;
+            font-size: 1.04rem;
+        }
+        *, ::before, ::after {
+         box-sizing: border-box;
+        }
+
+       .html {
+         scroll-behavior: smooth;
+         }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="typewriter">
+            <h1>Hello! Wellcome to my website</h1>
+        </div>
+        <nav >
+            <div class="right">
+
+                 <ul>
+                        <li><a href="\"> Home</a></li>
+                        <li><a href="\">about</a></li>
+                        <li><a href="\">service</a></li>
+                </ul>
+                 
+            </div>
+            <div class="left">
+                <div class="search-container"> 
+                    <input type="text" placeholder="Search...">
+                    <button type="submit">Search</button> 
+                </div>
+            </div> 
+          
+        </nav>
+    
+    </header>
+    <nav class="profile">
+        <div class="profile-image">
+            <img src="text_img.jpg" alt="Sachin's Profile Picture" class="profile-image"> 
+        </div>
+        <div class="description">
+            <h2 class="about__subtitle">
+                I am Sachin Mondal,an electrical engineering student with a passion for science, math, AI technology, and cyber security. 
+                I also have a keen interest in business management. In my free time, I enjoy playing chess and cricket.
+                <br>This website is a platform to share my thoughts, experiences, and projects with you.
+                Feel free to explore and get in touch if you have any questions or feedback.   
+           </h2>
+        </div>
+   
+   
+    </nav>
+
+    <nav class="work">
+       <div>
+        <nav class="work_section">
+            <div class="work">Website Developer:
+            Build and maintain responsive and visually appealing websites.
+            Implement front-end and back-end solutions to enhance website functionality.</div>
+         <div class="work">Android Developer:Design, develop, and maintain Android applications.
+            Collaborate with cross-functional teams to create user-friendly and efficient mobile experiences.</div>
+         <div clas="work">UX/UI Designer:Create intuitive and aesthetically pleasing user interfaces.
+            Conduct user research to inform design decisions and optimize user experiences. </div>
+         <div class="work">Cybersecurity Expert:
+    
+            Ensure the security of our systems and data through proactive measures.
+            Conduct vulnerability assessments and penetration testing to identify and mitigate risks.</div>
+         <div class="work">AI and ML Technician:
+    
+            Develop and deploy machine learning models to solve complex problems.
+            Utilize AI technologies to improve processes and decision-making.</div>
+        </nav>
+       </div>
+        <div class="office_image">
+            <img src="office_.jpeg" alt="office_" class="office_image"> 
+        </div>
+    </nav>
+     <div class="footer">
+       
+        <a href="https://www.facebook.com/profile.php?id=100061401498356&mibextid=ZbWKwL">Facebook</a> |
+        <a href="https://instagram.com/sachin_the_weeb?igshid=OGQ5ZDc2ODk2ZA==">Instagram</a> |
+        <a href="https://www.linkedin.com/in/sachin-mondal-948106227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a> |
+        <a href="https://github.com/KinG6829">GitHub</a> 
+        <br>
+        Thanks for visiting my profile! Leave your feedback and contact me at <a href="sachinmondal646@gmail.com">email</a>
+    </div>
+</body>
+</html>
